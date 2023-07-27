@@ -1,0 +1,3 @@
+[submodule "Mock-Amazon-Project"]
+	path = Mock-Amazon-Project
+	url = https://github.com/caralocke/Mock-Amazon-Project

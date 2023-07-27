@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+[submodule "path_to_submodule"] 
+  path = path_to_submodule 
+  url = git:https://github.com/caralocke/Mock-Amazon-Project

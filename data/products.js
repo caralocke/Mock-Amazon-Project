@@ -656,5 +656,35 @@ const products = [
       "apparel",
       "mens"
     ]
+  },
+  {
+    id: 'id1',
+    image: 'images/products/backpack.jpg',
+    name: 'Black Mesh Backpack',
+    rating: {
+      stars: 3.5,
+      count: 1389
+    },
+    priceCents: 999,
+    keywords: [
+      'backpack',
+      'back',
+      'pack',
+      'school'
+    ]
+  },
+  {
+    id: 'id2',
+    image: 'images/products/umbrella.jpg',
+    name: 'Extra Large Black Umbrella',
+    rating: {
+      stars: 5,
+      count: 3862
+    },
+    priceCents: 1499,
+    keywords: [
+      'umbrella',
+      'rain'
+    ]
   }
 ];

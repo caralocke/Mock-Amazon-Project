@@ -54,6 +54,10 @@ products.forEach((product) => {
   `;
 });
 
+let retString  = localStorage.getItem('cart');
+let retCart = JSON.parse(retString);
+console.log('cart', retCart)
+
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
@@ -81,7 +85,8 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
          productId,
          quantity,
       });
-      console.log('cart', cart)
+      let string = JSON.stringify(cart);
+      localStorage.setItem('cart', string)
     };
 
     let cartQuantity = 0;
@@ -108,3 +113,5 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     console.log(cart);
   });
 });
+
+console.log('retCart', retCart);
